@@ -14,6 +14,11 @@
 		E1134C211BCC9ACE00475EED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1134C201BCC9ACE00475EED /* Images.xcassets */; };
 		E1134C241BCC9ACE00475EED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1134C221BCC9ACE00475EED /* LaunchScreen.xib */; };
 		E1134C301BCC9ACE00475EED /* EarthAroundSunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1134C2F1BCC9ACE00475EED /* EarthAroundSunTests.m */; };
+		E1134C3D1BCC9DEA00475EED /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = E1134C3A1BCC9DEA00475EED /* earth.png */; };
+		E1134C3E1BCC9DEA00475EED /* 1444719720_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E1134C3B1BCC9DEA00475EED /* 1444719720_sun.png */; };
+		E1134C3F1BCC9DEA00475EED /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E1134C3C1BCC9DEA00475EED /* sun.png */; };
+		E1134C411BCCA31100475EED /* earth2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1134C401BCCA31100475EED /* earth2.png */; };
+		E1134C431BCCA79500475EED /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1134C421BCCA79500475EED /* moon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		E1134C291BCC9ACE00475EED /* EarthAroundSunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthAroundSunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1134C2E1BCC9ACE00475EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1134C2F1BCC9ACE00475EED /* EarthAroundSunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthAroundSunTests.m; sourceTree = "<group>"; };
+		E1134C3A1BCC9DEA00475EED /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		E1134C3B1BCC9DEA00475EED /* 1444719720_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444719720_sun.png; sourceTree = "<group>"; };
+		E1134C3C1BCC9DEA00475EED /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		E1134C401BCCA31100475EED /* earth2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth2.png; sourceTree = "<group>"; };
+		E1134C421BCCA79500475EED /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		E1134C121BCC9ACE00475EED /* EarthAroundSun */ = {
 			isa = PBXGroup;
 			children = (
+				E1134C391BCC9BA000475EED /* Photo */,
 				E1134C171BCC9ACE00475EED /* AppDelegate.h */,
 				E1134C181BCC9ACE00475EED /* AppDelegate.m */,
 				E1134C1A1BCC9ACE00475EED /* ViewController.h */,
@@ -117,6 +128,18 @@
 				E1134C2E1BCC9ACE00475EED /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1134C391BCC9BA000475EED /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E1134C421BCCA79500475EED /* moon.png */,
+				E1134C401BCCA31100475EED /* earth2.png */,
+				E1134C3A1BCC9DEA00475EED /* earth.png */,
+				E1134C3B1BCC9DEA00475EED /* 1444719720_sun.png */,
+				E1134C3C1BCC9DEA00475EED /* sun.png */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +222,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1134C431BCCA79500475EED /* moon.png in Resources */,
+				E1134C3E1BCC9DEA00475EED /* 1444719720_sun.png in Resources */,
+				E1134C411BCCA31100475EED /* earth2.png in Resources */,
 				E1134C1F1BCC9ACE00475EED /* Main.storyboard in Resources */,
+				E1134C3D1BCC9DEA00475EED /* earth.png in Resources */,
+				E1134C3F1BCC9DEA00475EED /* sun.png in Resources */,
 				E1134C241BCC9ACE00475EED /* LaunchScreen.xib in Resources */,
 				E1134C211BCC9ACE00475EED /* Images.xcassets in Resources */,
 			);
